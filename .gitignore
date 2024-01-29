@@ -1,0 +1,6 @@
+/runs
+/weights
+/wandb
+/others
+*/__pycache__
+*.pyc

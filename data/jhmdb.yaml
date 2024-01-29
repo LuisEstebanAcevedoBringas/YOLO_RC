@@ -1,0 +1,10 @@
+#Local
+train: C:/Users/Luis Bringas/Desktop/datasets/JHMDB/train/
+val: C:/Users/Luis Bringas/Desktop/datasets/JHMDB/train/
+test: C:/Users/Luis Bringas/Desktop/datasets/JHMDB/train/
+
+# number of classes
+nc: 21
+
+# class names
+names: ["brushHair", "catch", "clap", "climbStair", "golf", "jump", "kickBall", "pick", "pour", "pullup", "push", "run", "shootBall", "shootBow", "shootGun", "sit", "stand", "swingBaseball", "throw", "walk", "wave"]

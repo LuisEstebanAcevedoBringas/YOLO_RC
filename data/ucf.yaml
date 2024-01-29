@@ -1,0 +1,10 @@
+#Local
+train: C:/Users/Luis Bringas/Desktop/datasets/UCF/train/
+val: C:/Users/Luis Bringas/Desktop/datasets/UCF/train/
+test: C:/Users/Luis Bringas/Desktop/datasets/UCF/train/
+
+# number of classes
+nc: 24
+
+# class names
+names: ["Basketball", "BasketballDunk", "Biking", "CliffDiving", "CricketBowling", "Diving", "Fencing", "FloorGymnastics", "GolfSwing", "HorseRiding", "IceDancing", "LongJump", "PoleVault", "RopeClimbing", "SalsaSpin", "SkateBoarding", "Skiing", "Skijet", "SoccerJuggling", "Surfing", "TennisSwing", "TrampolineJumping", "VolleyballSpiking", "WalkingWithDog"]

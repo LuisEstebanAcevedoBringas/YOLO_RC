@@ -1,0 +1,7 @@
+train: C:/Users/Luis Bringas/Desktop/datasets/IPN/train/
+val: C:/Users/Luis Bringas/Desktop/datasets/IPN/test/
+test: C:/Users/Luis Bringas/Desktop/datasets/IPN/test/
+
+nc: 15
+
+names: ["D0X", "B0A", "B0B", "G01", "G02", "G03", "G04", "G05", "G06", "G07", "G08", "G09", "G10", "G11", "G12"]
