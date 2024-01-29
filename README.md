@@ -1,13 +1,8 @@
 # Yolo Mixed Backbone
 
-## Download dataset images and annots
+## Download dataset (images and annots) and weights
 
-[UCF and JHMDB](https://pan.baidu.com/share/init?surl=HSDqKFWhx_vF_9x6-Hb8jA)
-
-
-## Download weight
-
-[Imagenet](https://pan.baidu.com/share/init?surl=BP7X222ZPqOndbojwOPjkw)
+https://drive.google.com/drive/folders/1-CyMU793yB98X86FUNt_3ntMFZasd1Qw
 
 ## Extra configs
 
@@ -22,3 +17,11 @@
    5) "--batch-size" change it according to the gpu
    6) "--workers" change it according to the gpu
    7) "--device" change it according the gpu you want to use
+3) torch_utils.py:
+   1) Line 286 change the temporal kernel to plot the GFLOPs
+4) Dataloader3D.py
+   1) Lines 1395, 1432 and 1489: Put the rgb-images path of the dataset that you want to use
+   2)  Lines 795, 1394, 1430 and 1485 change it for the name of the dataset that you want to use
+5) val.py
+   1) "--data" change to the yaml of the dataset that you want to use
+   2) "--weights" change it to the weights that you want to test 
