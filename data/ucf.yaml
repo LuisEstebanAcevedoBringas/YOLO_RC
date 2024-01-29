@@ -1,7 +1,7 @@
 #Local
 train: /home/bringascastle/Documentos/datasets/UCF/train/
-val: /home/bringascastle/Documentos/datasets/UCF/train/
-test: /home/bringascastle/Documentos/datasets/UCF/train/
+val: /home/bringascastle/Documentos/datasets/UCF/test/
+test: /home/bringascastle/Documentos/datasets/UCF/test/
 
 # number of classes
 nc: 24
