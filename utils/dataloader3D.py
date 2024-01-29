@@ -1392,7 +1392,7 @@ def save_image_with_bboxes(annots, img_tensor, file_name):
 def get_info(path):
     global aux_n, aux_i, aux_s
     dataset = "ucf"
-    final_path = "C:/Users/Luis Bringas/Desktop/datasets/UCF/rgb-images/"
+    final_path = "/home/bringascastle/Documentos/datasets/UCF/rgb-images/"
     file_name = os.path.splitext(os.path.basename(path))[0]
     sub_carpet = ''
     if dataset == "ipn":
@@ -1429,7 +1429,7 @@ def get_info(path):
 def generate_stack(path, clip_size):
     dataset = 'ucf'
     data = []
-    img_paths = "C:/Users/Luis Bringas/Desktop/datasets/UCF/rgb-images/"
+    img_paths = "/home/bringascastle/Documentos/datasets/UCF/rgb-images/"
     video_n, video_i, _, sub_carpet = get_info(path)
     # print("generate_stack: ", sub_carpet, "/", video_n, video_i, "/", sub_carpet)
     # print(img_paths + "{}/".format(sub_carpet) + "{}/".format(video_n) + "{:05d}.jpg".format(video_i))
@@ -1485,7 +1485,7 @@ def generate_n_stacks(paths, clip_size): # We return all the volumes of images f
     dataset = 'ucf'
     data = []
     final_mosaic_stacks = []
-    img_paths = "C:/Users/Luis Bringas/Desktop/datasets/UCF/rgb-images/"
+    img_paths = "/home/bringascastle/Documentos/datasets/UCF/rgb-images/"
 
     if dataset == 'ipn':
         for n in paths:  
