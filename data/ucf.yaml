@@ -1,7 +1,7 @@
 #Local
-train: C:/Users/Luis Bringas/Desktop/datasets/UCF/train/
-val: C:/Users/Luis Bringas/Desktop/datasets/UCF/train/
-test: C:/Users/Luis Bringas/Desktop/datasets/UCF/train/
+train: /home/bringascastle/Documentos/datasets/UCF/train/
+val: /home/bringascastle/Documentos/datasets/UCF/train/
+test: /home/bringascastle/Documentos/datasets/UCF/train/
 
 # number of classes
 nc: 24
